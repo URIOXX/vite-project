@@ -17,12 +17,7 @@ const Homepage = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Tu centro de pruebas para los desafíos técnicos de FreeCodeCamp.
-            <span className="block mt-4 text-indigo-500 font-medium">
-              Selecciona cualquier prueba desde el menú superior y comienza, ten
-              en cuenta que la prueba de las opciones deben coincidir con el
-              tester automatizado.
-            </span>
+            Centro de pruebas para los desafíos técnicos de FreeCodeCamp.
           </p>
         </div>
 
@@ -111,10 +106,11 @@ const Homepage = () => {
           <h2 className="text-3xl font-bold text-gray-800 mb-6">
             ¿Listo para comenzar?
           </h2>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-            Selecciona una prueba del menú superior y demuestra tus habilidades
-            de desarrollo frontend.
-          </p>
+          <span className="block mb-5 text-indigo-500 font-medium">
+            Selecciona cualquier prueba desde el menú superior y comienza, ten <br/>
+            en cuenta que la prueba de las opciones deben coincidir con el
+            tester automatizado.
+          </span>
           {/* Botón y Flecha para "Volver Arriba" */}
           <button
             onClick={scrollToTop} // Llama a la función al hacer clic

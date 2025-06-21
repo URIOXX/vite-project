@@ -5,6 +5,7 @@ import QuoteBox from './components/RandomQuoteMachine';
 import MarkdownPreviewer from './components/MarkdownPreviewer';
 import DrumMachine from './components/DrumMachine';
 import Calculator from './components/calculator';
+import PomodoroTimer from './components/clock';
 
 function App() {
 
@@ -18,6 +19,8 @@ function App() {
           <Route path='/MarkdownPreviewer' element={<MarkdownPreviewer/>} />
           <Route path='/DrumMachine' element={<DrumMachine/>} />
           <Route path='/calculator' element={<Calculator/>} />
+          <Route path='/PomodoroClock' element={<PomodoroTimer/>} />
+          {/* Puedes agregar más rutas aquí */}
         </Routes>
       </BrowserRouter>
     </>
