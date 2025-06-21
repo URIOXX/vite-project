@@ -19,8 +19,9 @@ const Homepage = () => {
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Tu centro de pruebas para los desafíos técnicos de FreeCodeCamp.
             <span className="block mt-4 text-indigo-500 font-medium">
-              Selecciona cualquier prueba desde el menú superior y comienza a
-              codificar.
+              Selecciona cualquier prueba desde el menú superior y comienza, ten
+              en cuenta que la prueba de las opciones deben coincidir con el
+              tester automatizado.
             </span>
           </p>
         </div>
