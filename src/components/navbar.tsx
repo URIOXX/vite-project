@@ -102,6 +102,13 @@ function DropdownNavbar() {
                 >
                   Random Quote Machine
                 </Link>
+                <Link
+                  to="/MarkdownPreviewer"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={closeMenus}
+                >
+                  Markdown Previewer
+                </Link>
               </div>
             )}
           </div>
