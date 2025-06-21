@@ -27,7 +27,7 @@ function DropdownNavbar() {
         {/* Logo de la Marca */}
         <Link
           to="/"
-          className="text-white text-2xl font-bold hover:text-gray-200 transition-colors"
+          className="text-white text-2xl font-bold mx-80 hover:text-gray-200 transition-colors"
           onClick={closeMenus}
         >
           MiApp
@@ -115,6 +115,13 @@ function DropdownNavbar() {
                   onClick={closeMenus}
                 >
                   Drum Machine
+                </Link>
+                <Link
+                  to="/Calculator"
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  onClick={closeMenus}
+                >
+                  Calculator
                 </Link>
               </div>
             )}
